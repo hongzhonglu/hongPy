@@ -241,6 +241,31 @@ def multiMapping (description, item1, item2, dataframe=True, sep=";", removeDupl
     return result
 
 
+
+"""AutoUpdate"""
+def AutoUpdate(description1, para1, description2, para2):
+
+    # using the description1 in para1 to update the description2 in para2
+    description1 = description1.tolist()
+    para1 = para1.tolist()
+    description2 = description2.tolist()
+    para2 = para2.tolist()
+    ss = [None]*len(para2)
+    for i in range(len(para2)):
+       if para2[i] in para1:
+          ss[i] = para1.index(para2[i])
+       else:
+          ss[i] = None
+
+    for i in range(len(para2)):
+        if ss[i] != None:
+            description2[i] = description1[ss[i]]
+        else:
+            description2[i] = description2[i]
+    return description2
+
+
+
 def updateOneColumn(df1, df2, key0, value0):
     """
     using dataframe df2 to update the df1
