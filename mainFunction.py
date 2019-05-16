@@ -191,6 +191,7 @@ def getSimilarTarget(rxn_yeast0,rxn_newGPR0,ss):
 
     return similarTarget
 
+
 def singleMapping (description, item1, item2, dataframe=True):
     """get the single description of from item1 for item2 based on mapping"""
     #description = w
