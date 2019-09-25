@@ -4,7 +4,6 @@ import sys
 import pprint
 # set the directory
 sys.path.append(r"/Users/luho/Documents/GitHub")
-#sys.path.append(r"/Users/luho/Documents/GitHub/mainFuction")
 
 os.getcwd()
 pprint.pprint(sys.path)
@@ -20,7 +19,6 @@ from hongPy import mainFunction as MF
 """mapping"""
 tt = MF.singleMapping(w, v, testData, dataframe=False)
 mm = MF.multiMapping(w, v, testData, dataframe=False)
-#tt = singleMapping(w, v, testData, dataframe=False)
 
 
 """split and combine"""
@@ -48,3 +46,9 @@ from hongPy.primitive import line
 from hongPy.primitive import fill
 line.hello()
 fill.add(x=5,y=6)
+
+# here we add 'from . import newprint' in the __init__.py
+# thus we can directly use the followed code
+from formats import newprint
+newprint.testfun(x='hongzhong')
+newprint.mergeString(x='hello', y='hongzhong!')
