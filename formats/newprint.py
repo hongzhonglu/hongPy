@@ -6,3 +6,6 @@ def testfun(x):
 
 def mergeString(x,y):
     print(x+y)
+
+# Only export 'testfun' and 'mergeString'
+__all__ = ['testfun', 'mergeString']
