@@ -49,6 +49,6 @@ fill.add(x=5,y=6)
 
 # here we add 'from . import newprint' in the __init__.py
 # thus we can directly use the followed code
-from formats import newprint
-newprint.testfun(x='hongzhong')
-newprint.mergeString(x='hello', y='hongzhong!')
+from hongPy import formats
+formats.newprint.testfun(x='hongzhong')
+formats.newprint.mergeString(x='hello', y='hongzhong!')
