@@ -52,3 +52,6 @@ fill.add(x=5,y=6)
 from hongPy import formats
 formats.newprint.testfun(x='hongzhong')
 formats.newprint.mergeString(x='hello', y='hongzhong!')
+
+from hongPy import primitive
+primitive.fill.add(x=5, y=6)
