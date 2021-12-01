@@ -84,3 +84,61 @@ plt.show()
 sns.clustermap(df, metric="euclidean", standard_scale=1, method="ward", cmap="Blues")
 plt.show()
 
+
+# thir example
+# mutiple line
+import numpy as np
+import matplotlib as mpl
+import matplotlib.pyplot as plt
+import scipy.integrate as integrate
+dx=0.01
+dt=0.01
+size_x=1
+size_t=0.5
+nx=np.int_(size_x/dx+1)
+nt=np.int_(size_t/dt+1)
+
+diffusivity=1
+conc_t0=np.zeros(nx)
+conc_x0=1
+conc_x1=0
+
+def diffusion_eq(t,y):
+    y_constrainted=np.r_[conc_x0,y[1:-1],conc_x1]
+    return diffusivity*(np.gradient(np.gradient(y_constrainted,dx),dx))
+
+teval=np.r_[0:nt:1]*dt
+sol=integrate.solve_ivp(diffusion_eq,[0,size_t],conc_t0,t_eval=teval)
+
+plt.plot(sol.t,sol.y[np.int(0.1/dx)],marker='.',label='x=0.1')
+plt.plot(sol.t,sol.y[np.int((nx-1)/2)],marker='.',label='x=0.5')
+plt.plot(sol.t,sol.y[-1],marker='.',label='x=1')
+plt.xlabel('Time t')
+plt.ylabel('Concentration c')
+plt.legend(loc='upper right')
+
+xeval=np.r_[0:nx:1]*dx
+plt.plot(xeval,sol.y[:,np.int(0.1/dt)],marker='.',label='t=0.1')
+plt.plot(xeval,sol.y[:,np.int((nt-1)/2)],marker='.',label='t=0.25')
+plt.plot(xeval,sol.y[:,-1],marker='.',label='t=0.5')
+plt.xlabel('Position x')
+plt.ylabel('Concentration c')
+plt.legend(loc='lower left')
+
+# 3D plot
+from mpl_toolkits.mplot3d import Axes3D
+fig = plt.figure()
+plot = Axes3D(fig)
+plot_array_t,plot_array_x=np.meshgrid(sol.t,xeval)
+plot.plot_surface(plot_array_t,plot_array_x,sol.y,cmap=mpl.cm.jet)
+plot.view_init(20, 60)
+plot.set_xlabel('t')
+plot.set_ylabel('x')
+plot.set_zlabel('Concentration');
+
+
+plot = plt.contourf(plot_array_t,plot_array_x,sol.y,cmap=mpl.cm.jet,levels=50)
+plt.colorbar(plot)
+plt.title('Concentration')
+plt.xlabel('t')
+plt.ylabel('x')
