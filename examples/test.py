@@ -55,3 +55,12 @@ formats.newprint.mergeString(x='hello', y='hongzhong!')
 
 from hongPy import primitive
 primitive.fill.add(x=5, y=6)
+
+
+
+# define a function
+def add (a,b):
+    
+    s = a**2 + b**2
+
+    return s
