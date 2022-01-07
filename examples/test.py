@@ -5,6 +5,15 @@ import pprint
 # set the directory
 sys.path.append(r"/Users/luho/Documents/GitHub")
 
+
+# define a function
+def add (a,b):
+    
+    s = a**2 + b**2
+
+    return s
+
+
 os.getcwd()
 pprint.pprint(sys.path)
 w = [1,2,3,4,5,6]
@@ -58,9 +67,4 @@ primitive.fill.add(x=5, y=6)
 
 
 
-# define a function
-def add (a,b):
-    
-    s = a**2 + b**2
 
-    return s
