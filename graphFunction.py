@@ -11,6 +11,23 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
 
+
+
+# some general tips
+# save figure
+plt.savefig(title0, bbox_inches='tight')
+
+# adjust the title position
+plt.title(xx, y=1.01)
+
+
+
+
+
+
+
+
+
 def my_tan(x):
     return np.tan(x)
 
@@ -142,3 +159,19 @@ plt.colorbar(plot)
 plt.title('Concentration')
 plt.xlabel('t')
 plt.ylabel('x')
+
+
+
+
+# add confidence interval
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+# create random data
+np.random.seed(0)
+x = np.random.randint(0, 10, 10)
+y = x + np.random.normal(0, 1, 10)
+
+# create regression plot
+ax = sns.regplot(x, y, ci=80) # 80% confidence interval is plotted
