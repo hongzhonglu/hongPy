@@ -1,0 +1,32 @@
+""									Mass	
+""		Measured							error	
+"#"	RT	m/z PC		Identified coPmAp ound	ESI	Adduct		Calculated m/z	(ppm)	CODE
+33	16.90	876.7971274	TG(52:2)		positive	[M+NH ]+ 4		876.8015	4.9	LMGL03010083
+34	15.53	821.7372159	TG(52:3)		positive	[M+H-2H O]+ 2		821.7370	0.3	LMGL03010099
+35	18.24	906.8421157	TG(54:1)		positive	[M+NH ]+ 4		906.8484	6.9	LMGL03010177
+36	17.65	904.8269621	TG(54:2)		positive	[M+NH ]+ 4		904.8328	6.4	LMGL03010203
+37	4.82	691.454192	PA(32:1)		negative	[M+HCOO]-		691.4550	1.2	LMGP10010019
+38	7.07	735.5584558	PA(36:1)		positive	[M+CH 3OH+H]  +		735.5534	6.8	LMGP10010037
+39	6.05	662.4724516	PA(36:2)		positive	[M+NH ]+ 4		662.4755	4.6	LMGP10010058
+40	2.33	540.3271047	Lyso-PC(16:0)		negative	[M+HCOO]-		540.3301	5.6	LMGP01050018
+""		494.3226224			positive	[M+H]+		494.3241	3.0	
+41	2.16		Lyso-PC(16:1)							LMGP01050021
+""		538.3139782			negative	[M+HCOO]-		538.3145	1.0	
+""		522.3548285			positive	[M+H]+		522.3554	1.1	
+42	2.72		Lyso-PC(18:1)							LMGP01050029
+""		566.3453712			negative	[M+HCOO]-		566.3458	0.8	
+43	4.90	650.4766101	PC(26:0)		positive	[M+H]+		650.4755	1.7	LMGP01010388
+""		648.4596363			positive	[M+H]+		648.4599	0.4	
+44	4.46		PC(26:1)							LMGP01011316
+""		692.4527771			negative	[M+HCOO]-		692.4503	3.6	
+""		678.502869			positive	[M+H]+		678.5068	5.8	
+45	5.80		PC(28:0)							LMGP01010390
+""		722.4959197			negative	[M+HCOO]-		722.4972	1.8	
+""		676.4906912			positive	[M+H]+		676.4912	0.7	
+46	5.15		PC(28:1)							LMGP01010392
+""		720.4854479			negative	[M+HCOO]-		720.4816	5.4	
+47	6.05	704.5218728	PC(30:1)		positive	[M+H]+		704.5225	0.9	LMGP01010440
+""		702.5061362			positive	[M+H]+		702.5068	1.0	
+48	5.39		PC(30:2)							LMGP01011323
+""		746.4971292			negative	[M+HCOO]-		746.4972	0.1	
+49	7.32	732.5495272	PC(32:1)		positive	[M+H]+		732.5538	5.8	LMGP01010490

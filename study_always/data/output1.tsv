@@ -1,0 +1,27 @@
+""	Metabolite					CODE		
+"#"		1H signals assigned						
+""	name			CAS	YMDB		HMDB	KEGG
+1	Acetic acid 1.90 ppm (s, 3 H)			64-19-7	YMDB00056		HMDB00042	C00033
+2	Choline 3.19 ppm (s, 9 H)			62-49-7	YMDB00227		HMDB00097	C00114
+3	Adenine 8.18 ppm (s, 1 H); 8.23 ppm (s, 1 H)			73-24-5	YMDB00887		HMDB00034	C00147
+4	AMP 6.13 ppm (d, J=6.0 Hz, 1 H); 8.26 ppm (s, 1 H); 8.59 ppm (s, 1 H)			61-19-8	YMDB00097		HMDB00045	C00020
+5	ADP 8.25 ppm (s, 1 H); 8.52 ppm (s, 1 H)			58-64-0	YMDB00914		HMDB01341	C00008
+6	ATP 6.14 ppm (d, J=5.1 Hz, 1 H); 8.53 ppm (s, 1 H); 8.26 ppm (s, 1 H)			56-65-5	YMDB00109		HMDB00538	C00002
+7	Citric acid 2.50 ppm (s, 0.66 H); 2.54 ppm (s, 1.33 H); 2.63 ppm (s, 1.22 H); 2.67 ppm (s, 0.70 H)			77-92-9	YMDB00086		HMDB00094	C00158
+8	D-Glucose 3.24 ppm (dd, J=(7.8 Hz, 9.2 Hz), 0.71 H); 3.35-3.56 ppm (m, 2.63 H); 5.22 ppm (d, J=3.8 Hz, 0.36 H)			50-99-7	YMDB00286		HMDB00122	C00031
+9	Ethanol 1.17 ppm (t, J=7.1 Hz, 3H); 3.65 ppm (q, J=7.1 Hz, 2 H)			64-17-5	YMDB00883		HMDB00108	C00469
+10	Formic acid 8.44 ppm (s, 1 H)			64-18-6	YMDB00385		HMDB00142	C00058
+11	Glycerol 3.51-3.58 ppm (m, 2.07 H); 3.61-3.67 ppm (m, 2.12 H); 3.77 ppm (tt, J=(6.5 Hz, 4.4 Hz), 0.79 H)			56-81-5	YMDB00283		HMDB00131	C00116
+""	Glycerophospho-							
+12	3.22 ppm (s, 9 H); 3.56-3.71 ppm (m, 4 H); 4.27-4.36 ppm (m, 2 H)			28319-77-9	YMDB00309		HMDB00086	C00670
+""	choline							
+13	Glycine 3.55 ppm (s, 2 H)			56-40-6	YMDB00016		HMDB00123	C00037
+14	GMP 5.93 ppm (d, J=6.2 Hz); 8.19 ppm (s, 1H)			85-32-5	YMDB00261		HMDB01397	C00144
+15	GTP 5.93 ppm (d, J=6.1 Hz); 8.13 ppm (s, 1H)			86-01-1	YMDB00558		HMDB01273	C00044
+16	Hypoxanthine 8.18 ppm (s, 1 H); 8.20 ppm (s, 1 H)			68-94-0	YMDB00555		HMDB00157	C00262
+17	Inosine 8.22 ppm (s, 1H); 8.33 ppm (s, 1H)			75-18-3	YMDB00510		HMDB00195	C00081
+18	L-alanine 1.47 ppm (d, J=7.1 Hz, 3 H); 3.76 ppm (q, J=7.2 Hz, 1 H)			56-41-7	YMDB00154		HMDB00161	C00041
+19	L-arginine 1.58 - 1.79 ppm (m, 2 H); 1.80-2.00 ppm (m, 2 H); 3.23 ppm (t, J=6.9 Hz, 2 H); 3.76 ppm (t, J=6.1 Hz, 1 H)			74-79-3	YMDB00592		HMDB00517	C00062
+20	L-asparagine 2.82 ppm (d, J=7.6 Hz, 0.286 H); 2.86 ppm (d, J=7.6 Hz, 0.714 H)			70-47-3	YMDB00226		HMDB00168	C00152
+2.64 ppm (d, J=8.9 Hz, 0.33 H); 2.69 ppm (d, J=8.9 Hz, 0.67 H); 2.78 ppm (d, 3.7 Hz, 0.67 H); 21	L-aspartic acid			56-84-8	YMDB00896		HMDB00191	C00049
+""	2.83 ppm (d, J=3.7 Hz, 0.33 H); 3.89 ppm (dd, J=(8.8 Hz, 3.8 Hz), 1 H)							

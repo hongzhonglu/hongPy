@@ -1,0 +1,22 @@
+""								Mass	
+""		Measured						error	
+"#"	RT	m/z		Identified compound	ESI	Adduct	Calculated m/z	(ppm)	CODE
+1	12.86	712.6797471	Cer(t18:0/h26:0)(2OH)		positive	[M+H]+	712.6814	2.3	LMSP02030003
+2	9.44	663.4554962	Gcer1: Galα1-3(Fucα1-2)Galβ1-4Glcβ-Cer(d18:1/26:1(17Z))		positive	[M+H+NH ]2+ 4	663.4552	0.4	LMSP0505DI08
+3	9.28	1343.921573	Gcer2: Galα1-3Galα1-4Galβ1-4Glcβ-Cer(d18:1/26:0)		positive	[M+NH ]+ 4	1343.9137	5.8	LMSP0502AL06
+4	12.86	938.7054047	PI-Cer(t18:0/26:0)		positive	[M+H]+	938.7056	0.2	LMSP03030017
+""		502.4465307			positive	[M+NH ]+4	502.4466	0.1	
+5	5.74		DG(26:0)						LMGL02010324
+""		467.4087997			positive	[M+H-H2O]+	467.4089	0.2	
+6	6.82	530.4751844	DG(28:0)		positive	[M+NH ]+4	530.4779	5.1	LMGL02010331
+7	7.45	558.5103603	DG(30:0)		positive	[M+NH 4] +	558.5092	2.1	LMGL02010335
+8	9.59	586.5384633	DG(32:0)		positive	[M+NH ]+ 4	86.5405	3.5	LMGL02010009
+""		584.5255124			positive	[M+NH ]+ 4	584.5248	1.1	
+9	8.66		DG(32:1)						LMGL02010452
+""		549.489371			positive	[M+H-H O]+ 2	549.4872	4.0	
+""		582.5103803			positive	[M+NH4]+	582.5092	2.0	
+10	7.66								LMGL02010408
+""		582.5103803	DG(32:2)		positive	[M+H-H O]+ 2	582.5092	2.0	
+""		612.5529074			positive	[M+NH ]+ 4	612.5561	5.3	
+11	10.00		DG(34:1)						LMGL02010004
+""		577.518048			positive	[M+H-H 2O]  +	577.5185	0.7	

@@ -1,0 +1,81 @@
+""						Mammalian			Irreversible
+EC Number	Reaction	Abbreviation	Reactants		Products		Yeast	E. coli	
+""						iBMK cells			constraint
+2.7.1.1	hexokinase (PTS in E. coli)	hex	GLC	G6P		✔	✔	✔	✔
+5.3.1.9	phosphoglucose isomerase	pgi	G6P	F6P		✔	✔	✔	
+2.7.1.11	phosphofructokinase	pfk	F6P	FBP		✔	✔	✔	
+4.1.2.13	fructose-bisphosphate aldolase	fba	FBP	DHAP + GAP		✔	✔	✔	
+5.3.1.1	triose-phosphate isomerase	tpi	DHAP	GAP		✔	✔	✔	
+1.2.1.12	glyceraldehyde-3-phosphate dehydrogenase	gapd	GAP	BPG		✔	✔	✔	
+2.7.2.3	phosphoglycerate kinase	pgk	BPG	3PG		✔	✔	✔	
+4.2.1.11	enolase	eno	3PG	PEP		✔	✔	✔	
+2.7.1.40	pyruvate kinase	pyk	PEP	PYR		✔	✔	✔	
+4.1.1.31	phosphoenolpyruvate carboxylase	ppc	PEP + CO2	OAA				✔	✔
+4.1.1.32	phosphoenolpyruvate carboxykinase	ppck	OAA	PEP + CO2		✔	✔		✔
+1.1.1.38;									
+1.1.1.39;									
+1.1.1.40	malic enzyme	me	Mal	PYR + CO2		✔	✔	✔	✔
+6.4.1.1	pyruvate carboxylase	pc	PYR + CO2	OAA		✔	✔		✔
+4.1.1.3	oxaloacetate decarboxylase	oaadc	OAA	PYR + CO2				✔	✔
+1.1.1.49 and	glucose-6-phosphate dehydrogenase and 6-								
+3.1.1.31	phosphogluconolactonase	g6pdh	G6P	6PG		✔	✔	✔	✔
+4.2.1.12 and	6-phosphogluconate dehydratase and 2-								
+4.1.2.14	dehydro-3-deoxy-phosphogluconate aldolase	eda	m6PG	PYR + GAP				✔	
+1.1.1.44	phosphogluconate dehydrogenase	gnd	6PG	Ru5P + CO2		✔	✔	✔	
+5.3.1.6	ribose-5-phosphate isomerase	rpi	Ru5P	R5P		✔	✔	✔	
+5.1.3.1	ribulose-5-phosphate 3-epimerase	rpe	Ru5P	X5P		✔	✔	✔	
+2.2.1.1	transketolase	tkt1	X5P + R5P	S7P + GAP		✔	✔	✔	
+2.2.1.1	transketolase	tkt2	X5P + E4P	GAP + F6P		✔	✔	✔	
+2.2.1.2	transaldolase	tal	GAP + S7P	E4P + F6P		✔	✔	✔	
+2.3.1.12	pyruvate dehydrogenase	pdh	PYR	AcCoA + CO2		✔	✔	✔	
+4.1.1.1	pyruvate decarboxylase	pdc	PYR	AcetAld + CO2			✔		
+4.1.3.7	citrate synthase	cs	OAA + AcCoA	CitICit		✔	✔	✔	
+1.1.1.41 or									
+1.1.1.42	Isocitrate dehydrogenase	icdh	CitICit	aKG + CO2		✔	✔	✔	
+2.3.1.61	2-oxoglutarate dehydrogenase	akgdh	aKG	SuccCoA + CO2		✔	✔	✔	
+6.2.1.4 or									
+6.2.1.5	succinyl-CoA synthetase	sucoasA	SuccCoA	Succ		✔	✔	✔	
+1.3.99.1	succinate dehydrogenase	sucd	Succ	Fum		✔	✔	✔	
+4.2.1.2	fumarase	fumA	Fum	Mal		✔	✔	✔	
+1.1.1.37	malate dehydrogenase	mdh	Mal	OAA		✔	✔	✔	
+2.3.3.8	ATP-citrate lyase	acitl	CitICit	Mal + AcCoA_cytosol		✔			✔
+4.1.3.1	isocitrate lyase	icl	CitICit	Glx + Succ			✔	✔	
+2.3.3.9	malate synthase	mals	Glx + AcCoA	Mal			✔	✔	✔
+1.1.1.95 and	phosphoglycerate dehydrogenase and								
+2.6.1.52	phosphoserine transaminase		3PG	PSer		✔	✔	✔	
+3.1.3.3	phosphoserine phosphatase		PSer	Ser		✔	✔	✔	
+4.3.1.17	L-serine deaminase		Ser	PYR		✔	✔	✔	✔
+2.1.2.1	serine hydroxymethyltransferase		Ser	Gly +1C-THFa		✔	✔	✔	
+""	glycine cleavage system		Gly	1C-THFa + CO2		✔	✔	✔	✔
+""	cysteine synthesis		Ser	Cys		✔	✔	✔	✔
+2.6.1.2	L-alanine transaminase		PYR	Ala		✔	✔	✔	
+""	acetolactate synthase and ketol-acid								
+4.1.3.18 and	reductoisomerase and dihydroxy-acid								
+1.1.1.86 and	dehydratase (2,3-dihydroxy-3-								
+4.2.1.9	methylbutanoate)		2 PYR	AKV + CO2			✔	✔	
+2.6.1.42	valine transaminase		AKV	Val			✔	✔	
+4.1.3.12 and	2-isopropylmalate synthase and 2-								
+4.2.1.33	isopropylmalate hydratase		AKV + AcCoA	IPPM			✔	✔	✔
+4.2.1.33 and									
+1.1.1.85 and									
+2.6.1.42	leucine synthesis		IPPM	Leu + CO2			✔	✔	
+""	shikimate synthesis		PEP + E4P	SKM			✔	✔	
+""	chorismate synthesis		PEP + SKM	Chor			✔	✔	
+""	phenylpyruvate synthesis		Chor	PHPYR + CO2			✔	✔	
+""	phenylalanine synthesis		PHPYR	Phe			✔	✔	
+""	tyrosine synthesis		Chor	Tyr + CO2			✔	✔	
+""	tryptophan synthesis		Chor + PRPP + Ser	Trp + GAP + PYR + CO2			✔	✔	
+""	proline synthesis		Glu	Pro		✔	✔	✔	✔
+""	aKG - Glu interconversion		aKG	Glu		✔	✔	✔	
+""	Glu - Gln interconversion		Glu	Gln		✔	✔	✔	
+2.3.1.1	N-acteylglutamate synthase		Glu + AcCoA	AcGlu			✔	✔	✔
+""	ornithine synthesis		AcGlu	Orn + AcCoA			✔	✔	✔
+""	citrulline synthesis (urea cycle)		Orn + CO2	CITRL		✔	✔	✔	
+""	arginine synthesis (urea cycle)		CITRL	Arg		✔	✔	✔	
+""	threonine to glycine		Thr	Gly + AcCoA		✔	✔	✔	
+""	OAA - asp interconversion		OAA	Asp		✔	✔	✔	
+""	homoserine synthesis		Asp	HomoSer			✔	✔	
+""	threonine synthesis		HomoSer	Thr			✔	✔	
+""	asparagine synthesis		Asp	Asn		✔	✔	✔	
+""	isoleucine synthesis		Thr + PYR	Ile + CO2			✔	✔	
+""	methionine synthesis		HomoSer + 1C-THFa	Met			✔	✔	✔

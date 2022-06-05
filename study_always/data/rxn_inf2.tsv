@@ -1,0 +1,83 @@
+2.1.3.2	aspartate carbamoyltransferase	Asp + CO2	CBASP	✔	✔	✔	
+3.5.2.3 and	dihydroorotase and dihydoorotic acid						
+1.3.3.1	dehydrogenase	CBASP	OROT	✔	✔	✔	
+2.4.2.10 and							
+4.1.1.23	pyrimidine synthesis	OROT + PRPP	UMP + CO2	✔	✔	✔	✔
+	dTTP synthesis	UMP + 1C-THFa	dTTP	✔	✔	✔	✔
+2.6.1.16	glutamine-fructose-6-phosphate transaminase	F6P	GAM6P	✔	✔	✔	✔
+2.3.1.4	N-acetylglucosamine-6-phosphate synthase	GAM6P + AcCoA	ACGAM1P	✔	✔	✔	✔
+	glycerol-3-phosphate synthesis	DHAP	GLYC3P	✔	✔	✔	
+2.7.6.1	phosphoribosylpyrophosphate synthetase	R5P	PRPP	✔	✔	✔	✔
+	histidine synthesis	PRPP + ATP	His + AICAR		✔	✔	✔
+	5-aminoimidazole-4-carboxamide						
+	ribonucleotide synthesis	PRPP + Gly + 1C-THFa + CO2	AICAR	✔	✔	✔	✔
+	purine synthesis	AICAR + 1C-THFa	ATP	✔	✔	✔	✔
+1.2.1.10	acetaldehyde dehydrogenase	AcCoA	AcetAld			✔	
+4.1.1.15 and							
+2.6.1.19 and							
+1.2.1.24	GABA shunt	Glu	Succ + CO2	✔			✔
+2.6.1.13	ornithine transaminase	Glu	Orn	✔			
+	cysteine degradation (desulfhydrase in E. coli)	Cys	PYR	✔	✔	✔	✔
+2.8.1.7	cysteine desulfurase	Cys	Ala	✔			✔
+	Tyr degradation	Tyr	AcetoAc + Fum + CO2	✔			✔
+	Trp degradation	Trp	Ala + 2 AcCoA + 3 CO2 + 1C-THFa	✔			✔
+	Ile degradation	Ile + CO2	SuccCoA + AcCoA + CO2	✔			✔
+	Met degradation	Met + Ser + CO2	SuccCoA + CO2 + Cys + 1C-THFa	✔			✔
+	Val degradation	Val + CO2	SuccCoA + 2 CO2	✔			✔
+	Lys degradation	Lys	2 AcCoA + 2 CO2	✔			✔
+	Leu degradation	Leu + CO2	AcetoAc + AcCoA + CO2	✔			✔
+	His degradation	His	Glu + 1C-THFa	✔			✔
+2.8.3.5 and							
+2.3.1.9	ketolysis	AcetoAc	2 AcCoA	✔			✔
+1.14.16.1	phenylalaninase	Phe	Tyr	✔			
+	efflux	G6P		✔	✔	✔	✔
+		ACGAM1P		✔	✔	✔	✔
+		R5P		✔	✔	✔	✔
+		GLYC3P		✔	✔	✔	✔
+		AcCoA_cyt		✔	✔	✔	✔
+		Ala		✔	✔	✔	✔
+		Arg		✔	✔	✔	✔
+		Asn		✔	✔	✔	✔
+		Asp		✔	✔	✔	✔
+		Cys		✔	✔	✔	✔
+		Gln		✔	✔	✔	✔
+		Glu		✔	✔	✔	✔
+		Gly		✔	✔	✔	✔
+		His		✔	✔	✔	✔
+		Ile		✔	✔	✔	✔
+		Leu		✔	✔	✔	✔
+		Lys		✔	✔	✔	✔
+		Met		✔	✔	✔	✔
+		Phe		✔	✔	✔	✔
+		Pro		✔	✔	✔	✔
+		Ser		✔	✔	✔	✔
+		Thr		✔	✔	✔	✔
+		Trp		✔	✔	✔	✔
+		Tyr		✔	✔	✔	✔
+		Val		✔	✔	✔	✔
+		UMP		✔	✔	✔	✔
+		dTTP		✔	✔	✔	✔
+		ATP		✔	✔	✔	✔
+		1C-THFa		✔	✔	✔	✔
+		AcetoAc		✔			✔
+		Succ			✔	✔	✔
+		EtOH (AcetAld -> EtOH)			✔	✔	✔
+		CO2		✔	✔	✔	✔
+	influx		Glc	✔	✔	✔	✔
+			AcCoA	✔			✔
+			Arg	✔			✔
+			Cys	✔			✔
+			Gln	✔			✔
+			Gly	✔			✔
+			His	✔			✔
+			Ile	✔			✔
+			Leu	✔			✔
+			Lys	✔			✔
+			Met	✔			✔
+			Phe	✔			✔
+			Ser	✔			✔
+			Thr	✔			✔
+			Trp	✔			✔
+			Tyr	✔			✔
+			Val	✔			✔
+			CO2	✔	✔	✔	✔

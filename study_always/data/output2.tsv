@@ -1,0 +1,27 @@
+""	Metabolite				CODE		
+"#"	1H signals assigned						
+""	name		CAS	YMDB		HMDB	KEGG
+22	L-glutamic acid 1.99 - 2.17 ppm (m, 2 H); 2.26-2.42 ppm (m, 2 H); 3.75 ppm (dd, J=(7.2 Hz, 4.7 Hz), 1 H)		56-86-0	YMDB00271		HMDB00148	C00025
+23	L-glutamine 2.44 (td, J = (7.5, 3.7 Hz), 1H)		56-85-9	YMDB00002		HMDB00641	C00064
+24	L-histidine 3.11 ppm (d, J=7.4 Hz, 0.35 H); 3.15 ppm (d, J=7.7 Hz, 0.65 H);  7.07 ppm (s, 1 H); 7.84 ppm (s, 1 H)		71-00-1	YMDB00369		HMDB00177	C00135
+25	L-isoleucine 0.93 ppm (t, J=7.4 Hz, 3 H); 1.00 ppm (d, J=7.1 Hz, 3 H)		73-32-5	YMDB00038		HMDB00172	C00407
+26	L-lactic acid 1.31 ppm (d, J=7.0 Hz, 3 H); 4.10 ppm (q, J=6.9 Hz, 1 H)		79-33-4	YMDB00247		HMDB00190	C00186
+27	L-leucine 0.95 ppm (d, J=6.1 Hz, 3 H); 0.95 ppm (d, J=6.1 Hz, 3 H)		61-90-5	YMDB00387		HMDB00687	C00123
+1.35-1.60 ppm (m, 2 H); 1.65-1.80 ppm (m, 2 H); 1.81-1.94 ppm (m, 2 H); 2.95-3.1 ppm (m, 2 H); 28	L-lysine		56-87-1	YMDB00330		HMDB00182	C00047
+""	3.75 ppm (t, J=6.1 Hz, 1 H)						
+29	L-ornithine 1.65-2.00 ppm (m, 4 H); 3.04 ppm (t, J=7.6 Hz, 2 H)		70-26-8	YMDB00353		HMDB00214	C00077
+30	L-phenylalanine 7.37 ppm (m, 5 H)		63-91-2	YMDB00304		HMDB00159	C00079
+31	L-proline 1.90-2.12 ppm (m, 3 H); 2.27-2.40 ppm (m, 1 H); 4.12 ppm (dd, J=(8.6 Hz, 6.4 Hz), 1 H)		344-25-2	YMDB00378		HMDB00162	C00148
+32	L-threonine 1.32 ppm (d, J=6.6 Hz, 3 H); 3.57 ppm (d, J=4.9 Hz, 1 H); 4.19-4.28 ppm (m, 1 H)		72-19-5	YMDB00214		HMDB00167	C00188
+33	L-tyrosine 6.89 ppm (d, J=8.4 Hz, 2 H); 7.18 ppm (d, J=8.4 Hz, 2 H)		60-18-4	YMDB00364		HMDB00158	C00082
+34	L-valine 0.98 ppm (d, J=7.1 Hz, 3 H); 1.03 ppm (d, J=7.1 Hz, 3 H); 2.26 ppm (m, 1 H)		72-18-4	YMDB00152		HMDB00883	C00183
+""	6.03 ppm (d, J=5.9 Hz, 1 H); 6.08 ppm (d, J= 5.3 Hz, 1 H); 8.16 ppm (s, 1 H); 8.17 ppm (d, J=6.1 Hz);						
+35	NAD+ 8.15-8.21 ppm (m, 2 Hz); 8.42 ppm (s, 1H); 8.82 ppm (d, J=7.6 Hz, 1 H); 9.13 ppm (d, J=7.6 Hz, 1 H);		53-84-9	YMDB00110		HMDB00902	C00003
+""	9.33 ppm (s, 1 H)						
+36	Orotic acid 6.18 ppm (s, 1 H)		65-86-1	YMDB00405		HMDB00226	C00295
+37	Orotidine-5P 5.54 ppm (d, J=3.3 Hz, 1 H); 5.76 ppm (s, 1 H);		2149-82-8	YMDB00025		HMDB00218	C01103
+38	Succinic acid 2.39 ppm (s, 4 H)		110-15-6	YMDB00338		HMDB00254	C00042
+39	Trehalose 3.44 ppm (t, J=9.3 Hz, 2 H); 3.59 - 3.92 ppm (m, 10 H); 5.18 ppm (d, J=3.8 Hz, 2 H)		99-20-7	YMDB00008		HMDB00975	C01083
+40	UMP 5.98 ppm (m, 2 H); 8.10 ppm (J=7.9 Hz, 1H)		58-97-9	YMDB000049		HMDB00288	C00105
+41	Uracil 5.79 ppm (d, J=7.8 Hz, 1 H); 7.53 ppm (d, J=7.7 Hz, 1 H)		66-22-8	YMDB00098		HMDB00300	C00106
+42	Uridine 5.87-5.92 ppm (m, 2H); 7.87 ppm (d. J=8.5 Hz, 1 H)		58-96-8	YMDB00127		HMDB00296	C00299
