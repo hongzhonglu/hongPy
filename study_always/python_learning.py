@@ -1486,3 +1486,8 @@ arr2[0, 0] = 33
 
 nums = np.arange(5)
 nums * 10
+
+
+
+# change string into variable name
+eval('ecYeast.reactions.prot_Q0045.flux_expression + ecYeast.reactions.prot_Q0080.flux_expression')
