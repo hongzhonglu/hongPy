@@ -42,6 +42,8 @@ print(list(search_info.columns.values)) #file header
 print(search_info[[search_info.columns[0],search_info.columns[1],search_info.columns[2]]])
 
 
+# sum each column of pandas
+df.loc['sum'] = df.apply(lambda x: x.sum()) # sum for each column, the result put in row with name 'sum'
 
 
 ########################################## data structure
